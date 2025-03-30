@@ -1,0 +1,63 @@
+/* Resetowanie domyślnych stylów */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ustawienie tła strony */
+body {
+    background-color: #222; /* Ciemne tło */
+    color: #51ff00; /* Zielony tekst */
+    font-family: "VT323", monospace;
+    font-size: 20px;
+}
+
+/* Stylizacja nagłówków */
+h1, h2, h3, h4, h5, h6 {
+    color: #00ff40; /* Zielony kolor dla wszystkich nagłówków */
+    font-family: "VT323", monospace;
+}
+
+/* Stylizacja nawigacji */
+nav {
+    background: #333; /* Ciemne tło menu */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FF69B4; /* Różowy kolor tekstu w menu */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: inline-block;
+    transition: color 0.3s ease;
+    font-family: "VT323", monospace;
+}
+
+nav a:hover {
+    color: #FF1493; /* Ciemniejszy róż po najechaniu */
+}
+
+/* Styl dla głównej zawartości */
+.main-content {
+    text-align: center;
+    padding: 40px;
+    font-family: "VT323", monospace;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #51ff00; /* Zielony tekst w paragrafach */
+}
+
+/* Styl dla stopki */
+footer {
+    background: #222;
+    color: #51ff00; /* Zielony tekst */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: "VT323", monospace;
+}

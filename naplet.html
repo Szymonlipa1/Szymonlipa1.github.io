@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Minecraft</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+            background-image: url('background.png'); /* Tutaj możesz dodać tło */
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 50px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 4rem;
+            color: #fff;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px;
+            text-align: center;
+        }
+        .main-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+        .main-content img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-btn {
+            background: #4CAF50;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .cta-btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+ <img src="minecraft_title.png" alt="Minecraft Server Logo">       
+    </header>
+
+    <nav>
+        <a href="https://discord.com/invite/YzxGuQ7bFe" target="_blank">Discord</a>
+        <a href="#download">Pobierz</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="main-content" id="info">
+        <h2>Witaj w naszym serwerze Minecraft!</h2>
+        <p>Dołącz do naszej społeczności, twórz, buduj i przeżywaj niesamowite przygody w świecie Minecraft. Serwer oferuje szeroką gamę modów i wyjątkową atmosferę. Z nami zabawa trwa bez końca!</p>
+        <img src="https://example.com/minecraft-image.jpg" alt="Minecraft Server Screenshot"> <!-- Zmień link na odpowiedni obrazek -->
+    </div>
+
+    <div class="main-content" id="download">
+        <h2>Pobierz Minecraft</h2>
+        <p>Chcesz dołączyć do naszej przygody? Kliknij poniższy przycisk, aby pobrać Minecraft i rozpocząć grę!</p>
+        <a href="#" class="cta-btn">Pobierz teraz</a>
+    </div>
+
+    <div class="main-content" id="contact">
+        <h2>Skontaktuj się z nami</h2>
+        <p>Masz pytania? Chcesz się podzielić pomysłem? Skontaktuj się z nami przez e-mail lub za pomocą formularza na stronie.</p>
+        <a href="mailto:contact@minecraftserver.com" class="cta-btn">Napisz do nas</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Minecraft Server. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
